@@ -18,8 +18,13 @@ Este portfólio foi desenvolvido para destacar minhas habilidades em design e de
 - Acesse o portfólio online: [gabriellimadev.com](https://gabriellimadev.com/)
 - Ou clone este repositório para visualizá-lo localmente:
 
+
 ```bash
 git clone https://github.com/gabrielrodrigueslb/portfolio-gabriel-lima.git
 cd portfolio-gabriel-lima
 npm install
 npm start
+````
+![image](https://github.com/user-attachments/assets/c0b826d5-c427-44b0-a473-93c1c276b883)
+
+
