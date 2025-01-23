@@ -1,8 +1,25 @@
-# React + Vite
+# Portfólio - Gabriel Eduardo Lima
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do meu portfólio! Este projeto é uma vitrine dos meus trabalhos e projetos desenvolvidos com foco em front-end. Para a criação do portfólio, utilizei tecnologias modernas, garantindo uma experiência de usuário fluida, responsiva e dinâmica.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: criação de componentes reutilizáveis e gerenciamento de estado.
+- **React Router DOM**: navegação entre páginas de forma eficiente.
+- **Axios**: consumo de APIs e integração de dados dinâmicos.
+- **Sass**: estilização otimizada, responsividade e animações avançadas.
+
+## 📖 Sobre o Projeto
+
+Este portfólio foi desenvolvido para destacar minhas habilidades em design e desenvolvimento web. Ele apresenta uma seleção de projetos que incluem consumo de APIs, criação de sites, landing pages e design de interfaces. Cada página foi projetada com atenção aos detalhes, aplicando boas práticas de desenvolvimento para oferecer uma experiência agradável ao usuário.
+
+## 🌐 Como acessar
+
+- Acesse o portfólio online: [gabriellimadev.com](https://gabriellimadev.com/)
+- Ou clone este repositório para visualizá-lo localmente:
+
+```bash
+git clone https://github.com/gabrielrodrigueslb/portfolio-gabriel-lima.git
+cd portfolio-gabriel-lima
+npm install
+npm start
