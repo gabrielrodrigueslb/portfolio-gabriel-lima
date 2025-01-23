@@ -1,0 +1,126 @@
+.tecnologias {
+    padding-top: 55px;
+    overflow: hidden; /* Oculta conteúdo fora do contêiner */
+  }
+  
+  .tecnologias-texto {
+    text-align: center;
+  }
+  
+  .tecnologias-texto h2 {
+    font-size: 2.5rem;
+    color: #0375bb;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .tecnologias-texto p {
+    font-size: 1.25rem;
+    color: #aeaeae;
+    margin-bottom: 50px;
+  }
+  
+  .tecnologias-icon {
+    display: flex;
+    gap: 60px;
+    justify-content: start;
+    margin-bottom: 140px;
+    flex-wrap: nowrap; /* Mantém os itens em uma única linha */
+    animation: carrossel 20s linear infinite; /* Animação contínua */
+  }
+  
+  .tecnologias-icon li {
+    flex-shrink: 0; /* Garante que os itens não encolham */
+  }
+  
+  .tecnologias-icon li img {
+    height: 84px;
+    width: auto;
+    min-height: 30px; /* Tamanho mínimo garantido */
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.2); /* Efeito de zoom ao passar o mouse */
+    }
+  }
+  
+  @keyframes carrossel {
+    0% {
+      transform: translateX(0); /* Posição inicial */
+    }
+    100% {
+      transform: translateX(-50%); /* Move os itens para a metade, criando continuidade */
+    }
+  }
+  
+  /* Responsividade */
+  @media (max-width: 1000px) {
+    .tecnologias-icon {
+        display: flex;
+        gap: 60px;
+        justify-content: start;
+        margin-bottom: 100px;
+        flex-wrap: nowrap; /* Mantém os itens em uma única linha */
+        animation: carrossel 10s linear infinite; /* Animação contínua */
+      }
+
+
+    .tecnologias {
+      padding-top: 30px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .tecnologias {
+      padding-top: 60px;
+    }
+
+    .tecnologias-texto h2 {
+      font-size: 1.8rem;
+      color: #0375bb;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .tecnologias-texto p {
+      font-size: 1.1rem;
+      color: #aeaeae;
+      margin-bottom: 50px;
+    }
+  
+    .tecnologias-icon li img {
+      height: 60px;
+      width: auto;
+    }
+  
+    .tecnologias-icon {
+      gap: 50px;
+      animation: carrossel 5s linear infinite; /* Animação contínua */
+    }
+
+  }
+  
+  @media (max-width: 380px) {
+    .tecnologias-texto h2 {
+      font-size: 2rem;
+      color: #0375bb;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  
+    .tecnologias-texto p {
+      font-size: 1rem;
+      color: #aeaeae;
+      margin-bottom: 50px;
+    }
+  
+    .tecnologias-icon {
+      gap: 50px;
+    }
+  
+    .tecnologias-icon li img {
+      height: 65px;
+      width: auto;
+    }
+  }
+  
